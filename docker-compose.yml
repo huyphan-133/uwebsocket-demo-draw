@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  node1:
+    build: ./server
+  node2:
+    build: ./server
+  node3:
+    build: ./server
+  nginx:
+    image: nginx
+    ports:
+      - 3000:3000
+    volumes:
+      - ./nginx/conf:/etc/nginx/conf.d
+  redis:
+    image: redis
