@@ -1,0 +1,14 @@
+
+# Draw application using uwebsocketjs
+
+## Run server
+
+```
+cd server
+npm install
+node server.js
+```
+
+## Run client
+Open app/client.html in browers in multiple tab and enjoy it ^^
+
