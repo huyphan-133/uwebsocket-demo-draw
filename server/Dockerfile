@@ -6,5 +6,5 @@ COPY package.json /opt/service
 
 RUN npm install
 
-COPY main.js /opt/service
+COPY . /opt/service
 CMD node main.js

@@ -1,12 +1,10 @@
 
 # Draw application using uwebsocketjs
 
-## Run server
+## Run server with load balancer
 
 ```
-cd server
-npm install
-node server.js
+docker compose up
 ```
 
 ## Run client
